@@ -1,14 +1,13 @@
 # Rebalancer
-The Ethereum Uniswap Rebalancer C# program provides a straightforward solution for rebalancing a liquidity pool on the Uniswap decentralized exchange. The program, written in C# and utilizing the Nethereum library, enables users to automate the rebalancing process by adjusting token allocations according to specified percentages.
+Ethereum Uniswap Rebalancer C# program is a simple solution for rebalancing tokens (WBTC and WETH) on ethereum wallet using Uniswap smart contracts. The program, written in C# and using the Nethereum library, allows users to automate the rebalancing process by adjusting token allocation according to specified percentages.
 
 Key Features:
 
-- **Rebalancing Strategy:** The program implements a basic rebalancing strategy for a Uniswap liquidity pool with WBTC and WETH tokens.
+- **Rebalancing Strategy:** The program implements a basic rebalancing strategy for a wallet between WBTC and WETH tokens with using Uniswap smart contracts.
 - **User-Friendly Executable:** Users can easily download and run the program through a compiled executable (`UniswapRebalancer.exe`), making it accessible to non-developers.
 - **Customizable Configuration:** Configuration parameters, including Infura API key, private key, wallet address, and token details, can be customized using the `config.json` file.
-- **Testnet Support:** The program encourages testing on a testnet before deploying on the Ethereum mainnet, ensuring a safe and reliable implementation.
 
-This tool is suitable for users seeking an automated approach to maintain their desired token allocations within a Uniswap liquidity pool. It serves as a starting point that can be extended and customized based on individual preferences and requirements.
+This tool is suitable for users who are looking for an automated approach to maintaining the desired number of tokens in their wallet. It serves as a starting point that can be extended and customized according to individual preferences and requirements.
 
 
 ## Getting Started
@@ -81,4 +80,4 @@ Here's a simplified explanation of how the Ethereum Uniswap Rebalancer C# progra
    - Users can download the compiled executable (`UniswapRebalancer.exe`) from the repository releases.
    - They can run the executable, which prompts them for necessary inputs and executes the rebalancing strategy.
 
-In summary, the program automates the process of maintaining a desired allocation of WBTC and WETH in a Uniswap liquidity pool by periodically checking and rebalancing the token holdings based on the user's configured preferences.
+In general, the program automates the process of maintaining the desired distribution of WBTC and WETH in the wallet by periodically checking and rebalancing token holdings based on user-configured preferences.
