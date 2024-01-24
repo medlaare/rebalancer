@@ -1,4 +1,4 @@
-# rebalancer
+# Rebalancer
 The Ethereum Uniswap Rebalancer C# program provides a straightforward solution for rebalancing a liquidity pool on the Uniswap decentralized exchange. The program, written in C# and utilizing the Nethereum library, enables users to automate the rebalancing process by adjusting token allocations according to specified percentages.
 
 Key Features:
